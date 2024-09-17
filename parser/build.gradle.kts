@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "org.metalpricefreeapi"
-version = "1.0-SNAPSHOT"
+version = "1.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -21,6 +21,7 @@ tasks.jar {
 
 dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test")
+    implementation("com.codeborne:selenide:7.5.0")
 }
 
 tasks.test {
